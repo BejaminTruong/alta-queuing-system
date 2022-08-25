@@ -1,0 +1,11 @@
+.menuItems {
+  @apply flex items-center gap-3 py-4 pl-5 hover:bg-orange-100 
+  hover:text-orange-500 cursor-pointer;
+}
+.itemActive{
+    @apply bg-orange-500 text-white;
+}
+.menuBtn {
+  @apply flex items-center font-semibold bg-orange-100 text-orange-500 
+  mx-5 mb-5 rounded-lg;
+}
