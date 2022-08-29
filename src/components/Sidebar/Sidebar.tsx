@@ -102,7 +102,7 @@ const Sidebar: FC<Props> = () => {
         </div>
         <div className="menuBtn">
           <BsBoxArrowRight className="text-2xl mx-3" />
-          <button className="py-3 px-3 text-xl">Đăng xuất</button>
+          <button onClick={() => navigate("/")} className="py-3 px-3 text-xl">Đăng xuất</button>
         </div>
       </div>
     </div>

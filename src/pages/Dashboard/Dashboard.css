@@ -1,0 +1,34 @@
+/* Middle */
+.middleItems {
+  @apply flex flex-col gap-5 p-3 rounded-lg bg-white w-1/4 shadow-sm;
+}
+.middleIcons {
+  @apply w-[50px] h-[50px] text-2xl flex 
+  justify-center items-center rounded-full;
+}
+.middleStatBadge{
+    @apply flex justify-evenly items-center py-1 w-16 rounded-full text-[10px]
+}
+.middleStats{
+    @apply text-lg font-semibold max-w-[120px]
+}
+.middleStatParent{
+    @apply flex justify-between items-center
+}
+/* Right */
+.flexClasses{
+  @apply flex items-center gap-1
+}
+.itemsRight{
+  @apply flex w-full rounded-lg shadow-md p-3
+}
+.circleRight{
+  @apply flex justify-center items-center rounded-full w-[70px] h-[70px] 
+  border-4 text-lg font-semibold
+}
+.itemDot{
+  @apply w-[5px] h-[5px] rounded-full
+}
+.itemRightNumbers{
+  @apply text-lg font-semibold w-1/3
+}
